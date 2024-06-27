@@ -1,0 +1,15 @@
+hutch: txi
+
+# Locate happi database
+db: /reg/g/pcds/pyps/apps/hutch-python/device_config/db.json
+
+# Hutch-specific imports
+load: txi.beamline
+
+# DAQ interface configuration
+daq_type: lcls2
+
+daq_host: drp-srcf-cmp004
+
+daq_platform:
+  default: 5
